@@ -25,7 +25,6 @@ O foco do mesmo foi construir um layout responsivo da forma mais pura possível,
 
 # Layout do projeto
 <div align="center">
-    <img src="readme/brafe01-smartphone.png" alt="Site brafé smartphone" width="200px"/>
-    <img src="readme/brafe01-tablet.png" alt="Site brafé tablet" width="300px"/>
+    
     <img src="readme/brafe01-desktop.png" alt="Site brafé desktop" width="800px"/>
 </div>
