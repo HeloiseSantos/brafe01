@@ -55,7 +55,23 @@ a.menu-logo {
     padding: 10px;
     text-decoration: none;
     color: #FFF;
-    font-size: 1.125em; /* Tamanho da fonte que você quer dividido pelo tamanho da fonte base. ( Nesse caso, 18/16 = 1.125 ) */
+    font-size: 1.125em;
+}
+
+@media (max-width: 739px) {
+    .menu {
+        text-align: center;
+    }
+
+    a.menu-logo {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .menu-nav {
+        float: none;
+        clear: both;
+    }
 }
 
 /* Intro */
@@ -87,6 +103,12 @@ a.menu-logo {
 .intro p {
     font-size: 1.125em;
     font-style: italic;
+}
+
+@media (max-width: 739px) {
+    .intro {
+        padding: 60px 0;
+    }
 }
 
 /* Sobre */
@@ -144,6 +166,27 @@ a.menu-logo {
     max-width: 460px;
     text-align: center;
     margin: 20px auto;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+    .sobre-container {
+        max-width: 720px;
+    }
+
+    .sobre-item {
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px) {
+    .sobre-container {
+        max-width: 300px;
+    }
+
+    .sobre-item {
+        width: 300px;
+        margin: 0 auto;
+    }
 }
 
 /* Produtos */
@@ -221,6 +264,26 @@ a.menu-logo {
     margin: 20px auto 0;
 }
 
+@media (min-width: 740px) and (max-width: 980px) {
+    .produtos-container {
+        max-width: 720px;
+    }
+
+    .produtos-item {
+        width: 220px;
+    }
+}
+
+@media (max-width: 739px) {
+    .produtos-container {
+        max-width: 300px;
+    }
+
+    .produtos-item {
+        margin: 0 auto 40px;
+    }
+}
+
 /* Locais */
 .locais {
     max-width: 960px;
@@ -271,6 +334,29 @@ a.menu-logo {
     border: 3px solid;
     color: #252525;
     padding: 10px 20px;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+    .locais {
+        max-width: 720px;
+    }
+
+    .locais-item > div,
+    .locais-item img {
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px) {
+    .locais {
+        max-width: 300px;
+    }
+
+    .locais-item > div,
+    .locais-item img {
+        width: 300px;
+        margin: 0 0 20px;
+    }
 }
 
 /* Newsletter */
@@ -340,6 +426,31 @@ a.menu-logo {
     cursor: pointer;
 }
 
+@media (min-width: 740px) and (max-width: 980px) {
+    .newsletter-container {
+        max-width: 720px;
+    }
+
+    .newsletter-info,
+    .newsletter form,
+    .newsletter input  {
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px) {
+    .newsletter-container {
+        max-width: 300px;
+    }
+
+    .newsletter-info,
+    .newsletter form,
+    .newsletter input  {
+        width: 300px;
+        margin: 10px 0 0 0;
+    }
+}
+
 /* Footer */
 .footer {
     background-color: #D6D3C8;
@@ -369,4 +480,20 @@ a.menu-logo {
     float: right;
     margin: 0 10px;
     display: block;
+}
+
+@media (max-width: 739px) {
+    .footer-container {
+        max-width: 300px;
+    }
+
+    .footer p {
+        float: none;
+        margin: 0;
+    }
+
+    .footer img {
+        float: none;
+        margin: 20px 0 0;
+    }
 }
